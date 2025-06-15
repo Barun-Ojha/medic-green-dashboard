@@ -55,11 +55,30 @@ const PrescriptionGenerator = () => {
             {editing ? (
               <textarea
                 className="w-full border border-hc-green-light rounded mb-2 p-2"
+                style={{
+                  minHeight: "200px",
+                  background: "#ffffff"
+                }}
                 value={output}
                 onChange={e => setOutput(e.target.value)}
               />
             ) : (
-              <pre className="whitespace-pre-wrap bg-hc-green-light rounded p-4 border">{output}</pre>
+              <pre
+                className="whitespace-pre-wrap rounded"
+                style={{
+                  background: "#fff",
+                  border: "2px solid #e6ffe9",
+                  minHeight: "220px",
+                  maxHeight: "340px",
+                  width: "100%",
+                  fontSize: "1.1rem",
+                  padding: "1.5rem",
+                  overflowY: "auto",
+                  transition: "border-color 0.2s",
+                }}
+              >
+                {output}
+              </pre>
             )}
             {editing && (
               <button
