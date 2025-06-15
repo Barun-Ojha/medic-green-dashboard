@@ -1,73 +1,56 @@
-# Welcome to your Lovable project
+# Doctor Dashboard - June Cohort Project
 
-## Project info
+This project is developed as part of the June 2025 Cohort organized by CDC, NIT Rourkela.
 
-**URL**: https://lovable.dev/projects/340ca4b4-f8db-48eb-8365-9b74286918fa
+## Problem Statement
 
-## How can I edit this code?
+Build a web-based Doctor Dashboard containing:
 
-There are several ways of editing your application.
+- Patient Details Viewer
+- AI-powered Prescription Generator
+- Doctor Experience Learning via MCP Server
 
-**Use Lovable**
+## Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/340ca4b4-f8db-48eb-8365-9b74286918fa) and start prompting.
+- Clean & professional healthcare UI 
+- Doctor Login Interface
+- Patient Profile Viewer with:
+  - Name
+  - Age
+  - Height
+  - Weight
+  - BMI
+  - Blood Pressure
+  - SpO2
+- Prescription Generator Interface
+- Responsive design for easy usage
 
-Changes made via Lovable will be committed automatically to this repo.
+## Tech Stack
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
 - React
-- shadcn-ui
+- TypeScript
+- Vite
 - Tailwind CSS
+- shadcn-ui
+- Lovable AI 
+- GitHub
 
-## How can I deploy this project?
+## Team Members
 
-Simply open [Lovable](https://lovable.dev/projects/340ca4b4-f8db-48eb-8365-9b74286918fa) and click on Share -> Publish.
+- Barun Ojha
+- Subham Senapati
+- Subhranil Das
+- Nirmalendu Das
 
-## Can I connect a custom domain to my Lovable project?
+## Status
 
-Yes, you can!
+- Frontend prototype ready 
+- Backend and AI integration to be developed during Hacking Hours
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Deployment
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Currently being worked on. Deployment link will be added post integration.
+
+## Development Approach
+
+We utilized AI-powered development tools like Lovable.dev and GitHub Copilot to accelerate the frontend UI creation. All system architecture, component planning, project setup, version control, and problem-solving have been handled manually by the team.
