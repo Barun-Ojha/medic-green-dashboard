@@ -63,7 +63,7 @@ const SidebarNav = ({ onLogout }: Props) => {
   return (
     <>
       {/* Mobile: Hamburger menu that opens a Sheet */}
-      <div className="md:hidden fixed top-6 left-4 z-50">
+      <div className="md:hidden fixed top-4 left-4 z-50">
         <Sheet open={open} onOpenChange={setOpen}>
           <SheetTrigger asChild>
             <button aria-label="Open menu">
