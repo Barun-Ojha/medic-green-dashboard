@@ -1,4 +1,3 @@
-
 import { NavLink, useLocation } from "react-router-dom";
 import { ArrowLeft, Menu } from "lucide-react";
 import { useState } from "react";
@@ -64,7 +63,7 @@ const SidebarNav = ({ onLogout }: Props) => {
   return (
     <>
       {/* Mobile: Hamburger menu that opens a Sheet */}
-      <div className="md:hidden fixed top-4 left-4 z-50">
+      <div className="md:hidden fixed top-20 left-4 z-50">
         <Sheet open={open} onOpenChange={setOpen}>
           <SheetTrigger asChild>
             <button aria-label="Open menu">
